@@ -10,6 +10,7 @@ A tutorial about NLP technologies available for the Spanish language
  $ conda config --add channels conda-forge
  $ conda create -n nlp python=3 gensim spacy matplotlib scikit-learn pandas ipykernel
  $ activate nlp
+ $ pip install bs4
  $ python -m ipykernel install --user
  $ python -m spacy download es
  $ jupyter notebook
