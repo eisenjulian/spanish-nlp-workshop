@@ -8,7 +8,7 @@ A tutorial about NLP technologies available for the Spanish language
  $ git clone https://github.com/eisenjulian/spanish-nlp-workshop.git
  $ cd spanish-nlp-workshop
  $ conda config --add channels conda-forge
- $ conda create -n nlp python=3 gensim spacy matplotlib pandas ipykernel
+ $ conda create -n nlp python=3 gensim spacy matplotlib scikit-learn pandas ipykernel
  $ activate nlp
  $ python -m ipykernel install --user
  $ python -m spacy download es
